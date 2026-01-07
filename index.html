@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae | Aulia Nuraeni</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f6f8;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            border: 4px solid #0d6efd;
+        }
+        .section-title {
+            border-bottom: 2px solid #0d6efd;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="card shadow p-4">
+
+        <!-- HEADER -->
+        <div class="text-center">
+            <img src="foto.jpg" alt="Foto Profil" class="profile-img mb-3">
+            <h2 class="fw-bold">Aulia Nuraeni</h2>
+            <p class="text-muted">Mahasiswa TRPL | Web Developer Pemula</p>
+        </div>
+
+        <hr>
+
+        <!-- DATA PRIBADI -->
+        <h4 class="section-title">Data Pribadi</h4>
+        <table class="table table-bordered">
+            <tr>
+                <th>Nama Lengkap</th>
+                <td>Aulia Nuraeni</td>
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <td>2401012</td>
+            </tr>
+            <tr>
+                <th>Program Studi</th>
+                <td>Teknologi Rekayasa Perangkat Lunak</td>
+            </tr>
+            <tr>
+                <th>Kelas</th>
+                <td>TRPL 3</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>nuraeniaulia52@gmail.com</td>
+            </tr>
+            <tr>
+                <th>No. HP</th>
+                <td>089618227567</td>
+            </tr>
+        </table>
+
+        <!-- TENTANG SAYA -->
+        <h4 class="section-title">Tentang Saya</h4>
+        <p>
+            Saya adalah mahasiswa Program Studi Teknologi Rekayasa Perangkat Lunak
+            yang memiliki minat dalam bidang pemrograman web, pengembangan aplikasi,
+            serta analisis sistem. Terbiasa menggunakan HTML, CSS, JavaScript,
+            dan framework Bootstrap.
+        </p>
+
+        <!-- PENDIDIKAN -->
+        <h4 class="section-title">Pendidikan</h4>
+        <ul>
+            <li>Politeknik Manahijul Huda – TRPL (2024 – Sekarang)</li>
+            <li>SMA / SMK (SMA TERPADU MANAHIJUL HUDA)</li>
+        </ul>
+
+        <!-- KEAHLIAN -->
+        <h4 class="section-title">Keahlian</h4>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript Dasar</li>
+            <li>Bootstrap</li>
+            <li>MySQL Dasar</li>
+            <li>Laravel & Django (Dasar)</li>
+        </ul>
+
+        <!-- PENGALAMAN -->
+        <h4 class="section-title">Pengalaman</h4>
+        <ul>
+            <li>Anggota UKM Pramuka Tejaswara</li>
+            <li>Membuat Website CV & Aplikasi Web Sederhana</li>
+        </ul>
+
+        <!-- BUTTON JS -->
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" onclick="tampilkanPesan()">Klik Saya</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+    function tampilkanPesan() {
+        alert("Terima kasih sudah melihat Curriculum Vitae saya!");
+    }
+</script>
+
+</body>
+</html>
